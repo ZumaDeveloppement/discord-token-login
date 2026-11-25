@@ -1,0 +1,30 @@
+# ── Build artifacts ──────────────────────────────────────────
+build/
+dist/
+*.exe
+*.pkg
+*.spec
+
+# ── Python ───────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.eggs/
+
+# ── Environments ─────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── IDE / OS ─────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
